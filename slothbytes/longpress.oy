@@ -1,4 +1,4 @@
-# Big Fan btw
+#Big fan btw. I decided to start submitting the answers instead of just letting them float around.
 def isLongPressed(a, b):
     s_a = set(a)
     s_b = set(b)
