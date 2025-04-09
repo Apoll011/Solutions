@@ -5,7 +5,7 @@ def isLongPressed(a, b):
     for char in s_b:
         if b.count(char) < a.count(char):
             return False
-    return s_b.issuperset(s_a)
+    return len(b) >= len(a) and s_b == s_a
 
 print(isLongPressed("alex", "aaleex") == True)
 
